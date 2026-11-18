@@ -1,0 +1,8 @@
+[MESSAGES CONTROL]
+# no docstrings in this project, f-string logs read better with values
+# attribute-defined-outside-init off on purpose: setting self.api and the
+# flow state in on_start is the locust idiom for task sets
+disable=missing-module-docstring,missing-function-docstring,missing-class-docstring,logging-fstring-interpolation,attribute-defined-outside-init
+
+[FORMAT]
+max-line-length=88
